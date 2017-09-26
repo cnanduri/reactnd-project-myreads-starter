@@ -119,6 +119,20 @@ body, .app {
   text-align: left;
 }
 
+.authors-grid {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.authors-grid li {
+  padding: 0;
+  text-align: left;
+}
+
 .book {
   width: 140px;
 }
